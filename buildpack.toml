@@ -19,7 +19,7 @@ source = "https://php.net/distributions/php-5.6.9.tar.gz"
 version = "5.6.9"
 stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
 uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.1/php-5.6.9-linux-x64.tgz"
-sha256 = "f02282d32f6d6b068cab7a5c6f9ce29d552a0ebf69b5b9bf7bd7d2e65e0a4cfd"
+sha256 = "777b0067594f20d52845e4f87033933158a5c9d87bbd17c970a47de51a024485"
 
 [[metadata.dependencies]]
 id = "php-binary"

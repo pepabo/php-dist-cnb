@@ -12,6 +12,24 @@ api = "0.2"
     php = "7.2.*"
 
   [[metadata.dependencies]]
+  id = "php"
+  name = "PHP"
+  source = "https://php.net/distributions/php-5.6.9.tar.gz"
+  version = "5.6.9"
+  stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.1/php-5.6.9-linux-x64.tgz"
+  sha256 = "777b0067594f20d52845e4f87033933158a5c9d87bbd17c970a47de51a024485"
+
+  [[metadata.dependencies]]
+  id = "php"
+  name = "PHP"
+  source = "https://php.net/distributions/php-5.3.29.tar.gz"
+  version = "5.3.29"
+  stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
+  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.1/php-5.3.29-linux-x64.tgz"
+  sha256 = "d7ef36ed9b7c29c35a2a071a2ca924685894928eaf7bf7fdc0a02499b8d56102"
+
+  [[metadata.dependencies]]
     id = "php"
     name = "PHP"
     sha256 = "bb73cf6aff98fee621cce8623a383ed6aceca11ac5a03b099c7d0f6383100ddb"
@@ -115,6 +133,13 @@ api = "0.2"
     match = "5.6.\\d+"
     name = "php"
     version_line = "5.6.x"
+
+  [[metadata.dependency_deprecation_dates]]
+    date = 2021-12-06T00:00:00Z
+    link = "http://php.net/supported-versions.php"
+    match = "5.3.\\d+"
+    name = "php"
+    version_line = "5.3.x"
 
 [[stacks]]
   id = "org.cloudfoundry.stacks.cflinuxfs3"

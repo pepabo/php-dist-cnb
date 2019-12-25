@@ -27,7 +27,7 @@ api = "0.2"
   version = "5.3.29"
   stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
   uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.3/php-5.3.29-linux-x64.tgz"
-  sha256 = "40f882c2235d2519d096bc49507609255b92355386c9985fe750632d78f9c9d1"
+  sha256 = "8f18fc139c31920f225f0669ad6f9d92107220c7ec1b251a81a1b68507849b43"
 
   [[metadata.dependencies]]
     id = "php"

@@ -17,8 +17,8 @@ api = "0.2"
   source = "https://php.net/distributions/php-5.6.9.tar.gz"
   version = "5.6.9"
   stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.3/php-5.6.9-linux-x64.tgz"
-  sha256 = "777b0067594f20d52845e4f87033933158a5c9d87bbd17c970a47de51a024485"
+  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.4/php-5.6.9-linux-x64.tgz"
+  sha256 = "2cccc39714caff75db6ead16f32c332a11cdc82bce8219b73c5a215c92aac36b"
 
   [[metadata.dependencies]]
   id = "php"
@@ -26,7 +26,7 @@ api = "0.2"
   source = "https://php.net/distributions/php-5.3.29.tar.gz"
   version = "5.3.29"
   stacks = ["org.cloudfoundry.stacks.cflinuxfs3"]
-  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.3/php-5.3.29-linux-x64.tgz"
+  uri = "https://github.com/pepabo/binary-builder/releases/download/v0.0.4/php-5.3.29-linux-x64.tgz"
   sha256 = "8f18fc139c31920f225f0669ad6f9d92107220c7ec1b251a81a1b68507849b43"
 
   [[metadata.dependencies]]
